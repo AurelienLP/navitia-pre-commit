@@ -1,9 +1,9 @@
-- id: 'clang-format'
-  name: 'clang-format'
-  description: 'Format files with ClangFormat.'
-  entry: 'clang-format'
+- id: clang-format
+  name: clang-format
+  description: Format files with ClangFormat.
+  entry: clang-format
   language: system
-  files: '\.(c|cc|cxx|cpp|h|hpp|hxx)$'
+  files: \.(c|cc|cxx|cpp|h|hpp|hxx)$
   args: ['-fallback-style=none', '-i']
 - id: 'clang-format-6.0'
   name: 'clang-format-6.0'
