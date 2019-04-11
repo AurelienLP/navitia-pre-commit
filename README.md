@@ -11,7 +11,7 @@ pre-commit install
 ## Using the hooks
 
 ```yaml
--   repo: git@github.com:CanalTP/navitia-pre-commit.git
+-   repo: https://github.com/CanalTP/navitia-pre-commit
     rev: master
     hooks:
     -   id: clang-format
