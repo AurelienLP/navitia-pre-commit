@@ -16,6 +16,6 @@
   name: 'clang-tidy-6.0'
   description: 'Use the linter Clang-tidy v6.'
   entry: 'run_clang_tidy_on_diff'
-  language: system
+  language: script
   files: \.(c|cc|cxx|cpp|h|hpp|hxx)$
   args: ['-b=_buildRelease', '-r=CanalTP', '-s=/app/navitia']
